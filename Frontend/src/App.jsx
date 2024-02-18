@@ -7,6 +7,9 @@ import CoursePresentation1 from './assets/components/CoursePresentation1'
 import './assets/styles/landingWeb/responsive.css'
 import './assets/styles/landingWeb/style.css'
 
+import './assets/styles/landingWeb/responsive.css'
+import './assets/styles/landingWeb/style.css'
+
 function App (){
   return (
     <>
