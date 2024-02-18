@@ -1,0 +1,15 @@
+{
+  "name": "quantum_sapiens",
+  "description": "A coillection of dinosaurs living on the blockchain",
+  "image": "collection.jpg",
+  "symbol": "QSC",
+  "attributes": [],
+  "properties": {
+    "files": [
+      {
+        "uri": "collection.jpg",
+        "type": "image/jpg"
+      }
+    ]
+  }
+}
