@@ -1,11 +1,12 @@
 // Hooks and libreries
 import { useState } from 'react';
 import 'animate.css';
+import Connect2Phantom from "./Connect2Phantom";
 
 // Imports
-import IconQSapiens from '../svg/iconQSapiens.svg';
-import iconUserLogin from '../svg/iconUserLanding.svg';
-import iconArrow from '../svg/iconArrow.svg';
+//import IconQSapiens from '../svg/iconQSapiens.svg';
+// import iconUserLogin from '../svg/iconUserLanding.svg';
+// import iconArrow from '../svg/iconArrow.svg';
 
 export default function Header () {
   /* States */
@@ -20,7 +21,7 @@ export default function Header () {
     <header className="header">
       <div className="header__icon">
         <div className="header__icon--img">
-          <img src={IconQSapiens} alt="Icon Website" />  
+          {/*<img src={IconQSapiens} alt="Icon Website" />*/}
         </div>
         <div className="header__icon--slogan">
           {/* Cambiar span y p por a */}
@@ -29,19 +30,20 @@ export default function Header () {
         </div>
       </div>
       <nav className="header__nav">
+
         <a href="#">Cursos</a>
         <a href="#">Suscripción</a>
         <a href="#">Comunidad</a>
         <div className="header__nav--burger">
           <div className="header__nav--burger-info">
-            <p 
-            onClick={() => 
+            <p
+            onClick={() =>
             {setClickMove(!clickMove), setClickMoveArrow(!clickMoveArrow)}
             }>Más</p>
-            <img 
-            className={classMoveArrow}
-            src={iconArrow} 
-            alt="Icon Arrow" />
+            {/*<img*/}
+            {/*className={classMoveArrow}*/}
+            {/*src={iconArrow}*/}
+            {/*alt="Icon Arrow" />*/}
           </div>
           <ul className={classHover}>
             <a href="#">Mis cursos</a>
@@ -50,10 +52,11 @@ export default function Header () {
             <a href="#">Contenido</a>
           </ul>
         </div>
+        <Connect2Phantom />
       </nav>
       <div className="header__login">
         <div className="header__login--user">
-          <img src={iconUserLogin} alt="Button Login" />
+          {/*<img src={iconUserLogin} alt="Button Login" />*/}
           <a href="#">Mi info</a>
         </div>
         {/* Hacer que el button sea padre de a */}
