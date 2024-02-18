@@ -29,7 +29,7 @@ export default function MainLanding ({ changePage }) {
         <CoursesWebsite changePage={changePage} />
         <AdvantagesMainLanding />
         <ServicesMainLanding />
-        <PricesMainLanding />
+        {/* <PricesMainLanding /> */}
         <EndingMainLanding />
       </main>
     </>
