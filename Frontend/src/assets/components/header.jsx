@@ -1,5 +1,4 @@
 // Hooks and libreries
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import { useState } from 'react';
 import 'animate.css';
 
@@ -7,7 +6,6 @@ import 'animate.css';
 import iconBienestarTu from '../svg/iconBienestarTu.svg';
 import iconUserLogin from '../svg/iconUserLanding.svg';
 import iconArrow from '../svg/iconArrow.svg';
-import '../sass/landingWeb/header.css';
 
 export default function Header () {
   /* States */

@@ -218,4 +218,24 @@
   .main__advantages--svg {
     padding: 0;
   }
-}/*# sourceMappingURL=responsive.css.map */
+  .main__services--cards {
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  .main__services--cards-card {
+    flex-direction: column-reverse;
+    display: flex;
+    width: 320px;
+    gap: 12px;
+  }
+  .main__services--cards-card_img img {
+    border-radius: 0;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+  }
+  .main__services--cards-card_info h3 {
+    border: 1px dotted #000000;
+    padding-top: 10px;
+  }
+}
