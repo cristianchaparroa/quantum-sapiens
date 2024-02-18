@@ -1,6 +1,7 @@
 // Hooks and libreries
 import { useState } from 'react';
 import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from "react-icons/fa";
+import Connect2Phantom from './Connect2Phantom';
 import 'animate.css';
 
 // Imports
@@ -75,6 +76,7 @@ export default function Header ({ changePage }) {
             <a href="#">Contenido</a>
           </ul>
         </div>
+        <Connect2Phantom />
       </nav>
       <div className="header__login">
         <div className="header__login--user">
