@@ -74,8 +74,11 @@ const Connect2Phantom: FC = () => {
             { walletAvail ?
                 <>
                     { connected ? <p style={{fontSize: '12px'}} >Address : {pubKey?.toBase58()}</p> : null }
-                <button hidden={connected} onClick={connectHandler}>Connect to Phantom</button>
-                <button hidden={!connected} onClick={disconnectHandler}>Disconnect from Phantom</button>
+                <button hidden={connected} onClick={connectHandler}>Ingresar</button>
+                <div style={{textAlign: 'right'}}>
+                    <button hidden={!connected} onClick={disconnectHandler}>Salir</button>
+                </div>
+
 
                 </>
             :

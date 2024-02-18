@@ -1,12 +1,20 @@
-# quantum-sapiens
+# Quantum Sapiens
 
-## Creacion NFT com Metaplex Y Sugar
+## Estructura del repositorio
+
+- Programs: Contratos inteligentes con Anchor.
+- web: Aplicación web del sitio
+- nft-collection: metadata de los NFT generados
+
+## Tecnologías
+
+### Creacion NFT com Metaplex Y Sugar
 
 Sugar es un CLI de Candy Machine para crear NFT de manera sencilla en Solana esta es su pagina donde esta la intalacion:
 
 https://docs.metaplex.com/developer-tools/sugar/overview/introduction
 
-### Requisitos previos
+#### Requisitos previos
 
 1. Instalar CLI de Solana en: https://docs.solana.com/cli/install-solana-cli-tools#use-solanas-install-tool
 
@@ -16,11 +24,11 @@ https://docs.metaplex.com/developer-tools/sugar/overview/introduction
 
 4. Crea una cuenta de alamacenamiento IPFS en Pinata cloud: https://www.pinata.cloud/
 
-### Estructua de archivos
+#### Estructua de archivos
 
 Es muy importante tner la estructura de archivos que vemo en la carpeta nft-collection/ y respetar la estructura de los archivos .json y .jpg, en la carpeta esta el ejemplo de cada uno de ellos
 
-### Creacion coleccion NFT
+#### Creacion coleccion NFT
 
 Es importante para ejecutar los comandos estar a un nivel superior de la carpeta assets/
 
@@ -49,3 +57,5 @@ https://www.solaneyes.com/address/944eKENZZmn2RcB52QaWSMyKTd7qvSEd4t3cGMb4B45M?c
 Con la direccion tambien podemos buscar en el solana Explorer nuestro NFT:
 
 https://explorer.solana.com/address/944eKENZZmn2RcB52QaWSMyKTd7qvSEd4t3cGMb4B45M?cluster=devnet
+
+### 
