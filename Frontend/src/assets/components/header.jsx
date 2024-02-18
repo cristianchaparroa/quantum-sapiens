@@ -26,23 +26,14 @@ export default function Header () {
         </div>
         <div className="header__icon--slogan">
           {/* Cambiar span y p por a */}
-<<<<<<< HEAD
           <span>QuantiumSapiens</span>
           <p>Ganas mientras aprendes</p>
-=======
-          <span>BienestarTu</span>
-          <p>Salud Mental</p>
->>>>>>> main
         </div>
       </div>
       <nav className="header__nav">
         <a href="#">Cursos</a>
         <a href="#">Suscripción</a>
-<<<<<<< HEAD
         <a href="#">Comunidad</a>
-=======
-        <a href="#">Sesiones Personalizada</a>
->>>>>>> main
         <div className="header__nav--burger">
           <div className="header__nav--burger-info">
             <p 
@@ -55,39 +46,19 @@ export default function Header () {
             alt="Icon Arrow" />
           </div>
           <ul className={classHover}>
-<<<<<<< HEAD
             <a href="#">Mis cursos</a>
             <a href="#">Blog</a>
             <a href="#">Perfil</a>
             <a href="#">Contenido</a>
-=======
-            <a href="#">Comunidad</a>
-            <a href="#">Grupos</a>
-            <a href="#">Blog</a>
-            <a className='inactive itemActive' href="#">Cursos</a>
-            <a className='inactive itemActive' href="#">Suscripción</a>
-            <a href="#">Refer Friends</a>
-            <a className='inactive itemActive' href="#">Sesiones Personalizada</a>
-            <a href="#">Programa de Fidealización</a>
->>>>>>> main
           </ul>
         </div>
       </nav>
       <div className="header__login">
         <div className="header__login--user">
           <img src={iconUserLogin} alt="Button Login" />
-<<<<<<< HEAD
           <a href="#">Mi info</a>
         </div>
         {/* Hacer que el button sea padre de a */}
-=======
-          <a href="#">Entra</a>
-        </div>
-        {/* Hacer que el button sea padre de a */}
-        <a href="#">
-          <button className='buttonSignUp'>Empezar</button>
-        </a>
->>>>>>> main
       </div>
     </header>
   )
