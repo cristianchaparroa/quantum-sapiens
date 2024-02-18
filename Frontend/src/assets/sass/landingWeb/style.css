@@ -8,6 +8,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body{
+  background-color: #D3E9ED;
+}
+
 h1 {
   font-family: "Space Grotesk", sans-serif;
   font-size: 50px;
@@ -40,7 +44,7 @@ a {
 }
 
 .header {
-  grid-template-columns: 200px 1fr 225px;
+  grid-template-columns: 210px auto 225px;
   display: grid;
   padding: 20px 14px;
 }
@@ -114,6 +118,7 @@ a {
   border: 1px solid #000000;
 }
 .header__login {
+  justify-content: center;
   align-items: center;
   display: flex;
   gap: 20px;
@@ -187,8 +192,8 @@ a {
   color: #FFFFFF;
 }
 .main__welcome--info button:hover {
-  background-color: #FFBF23;
-  border: 2px solid #996E00;
+  background-color: #9886E5;
+  border: 2px solid #6c5fa4;
 }
 .main__welcome--info button:hover a {
   color: #000000;
@@ -216,7 +221,7 @@ a {
   justify-content: center;
   display: flex;
   padding: 50px 0;
-  background-color: #FFBF23;
+  background-color: #9886E5;
 }
 .main__description--background .main__description {
   grid-template-columns: 450px 1fr;
@@ -294,7 +299,7 @@ a {
   flex: 0 0 125px;
   cursor: pointer;
   border-radius: 12px;
-  background-color: #FFBF23;
+  background-color: #1D8593;
   border: 1px solid #000000;
 }
 .main__courses--cards .card__course--moreInfo-items {
@@ -323,7 +328,7 @@ a {
 .main__courses--cards::-webkit-scrollbar-thumb {
   border-radius: 12px;
   width: 320px;
-  background: #FFBF23;
+  background: #1D8593;
 }
 .main__advantages {
   grid-template-columns: 1fr 1fr;
@@ -414,7 +419,7 @@ a {
   width: 100%;
   padding: 80px 0;
   margin: 50px 0;
-  background-color: rgba(199, 199, 199, 0.5);
+  background-color: rgba(255, 255, 255, 1);
 }
 .main__memberships--container {
   display: flex;
@@ -436,7 +441,7 @@ a {
   height: 310px;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
-  background-color: #FFBF23;
+  background-color: #9886E5;
   border-bottom: 2px solid #000000;
 }
 .main__memberships--container-cards .card__info--title h3 {
@@ -527,7 +532,7 @@ a {
   right: calc(50% - 70px);
   color: #000000;
   border: 1px solid black;
-  background-color: #FFBF23;
+  background-color: #9886E5;
 }
 .main__memberships--container-cards:last-child .card__info--suggest p {
   font-size: 14px;
@@ -602,7 +607,7 @@ a {
   width: 100%;
   bottom: -1px;
   z-index: -10;
-  background-color: #FFBF23;
+  background-color: #1D8593;
 }
 .main__ending--span-link {
   place-items: center;
@@ -637,7 +642,7 @@ a {
   flex-direction: column;
   display: flex;
   width: 100%;
-  background-color: #FFBF23;
+  background-color: #1D8593;
 }
 .footer__container {
   grid-template-columns: 1fr 1fr 300px 1fr;

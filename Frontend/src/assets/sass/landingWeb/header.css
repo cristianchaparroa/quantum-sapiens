@@ -29,7 +29,7 @@ a {
 }
 
 .header {
-  grid-template-columns: 200px 1fr 225px;
+  grid-template-columns: 240px auto 225px;
   display: grid;
   padding: 20px 14px;
 }
