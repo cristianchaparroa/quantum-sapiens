@@ -1,0 +1,73 @@
+.main__containerCourses{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.main__courses--cards{
+    flex-direction: row;
+    overflow-x: hidden;
+    display: flex;
+    width: 950px;
+    margin: 20px 0;
+}
+
+.main__courses--cards-column {
+    flex-direction: column;
+    overflow-x: hidden;
+    display: flex;
+    width: 950px;
+    margin: 20px 0;
+    gap: 20px;
+}
+
+.main__courses--card{
+    grid-template-columns: 350px auto;
+    display: grid;
+    width: 100%;
+    gap: 20px;
+    padding: 25px;
+    color: #FFF;
+    border-radius: 12px;
+    background-color: #9886E5;
+}
+
+.main__courses--card img{
+    width: 100%;
+    border-radius: 12px;
+}
+
+.main__courses--card-info{
+    flex-direction: column;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main__courses--card-info p{
+    color: #ffffffa9;
+}
+
+.main__courses--card-info p:nth-child(3){
+    font-weight: bold;
+}
+
+.main__courses--card-info a button{
+    background-color: #FFF;
+    padding: 12px 20px;
+    cursor: pointer;
+    color: #000;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 12px;
+    border: 1px solid #00000085;
+    transition: all 0.3s ease-in-out;
+}
+
+.main__courses--card-info a button:hover {
+    color: #000;
+    border: 1px solid #00000083;
+    background-color: #D3E9ED;
+}

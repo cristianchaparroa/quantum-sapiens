@@ -15,7 +15,7 @@ interface PhantomProvider {
     isPhantom: boolean;
 }
 
-type WindowWithSolana = Window & { 
+type WindowWithSolana = Window & {
     solana?: PhantomProvider;
 }
 
@@ -36,20 +36,20 @@ const Connect2Phantom: FC = () => {
                 setProvider(solWindow.solana);
                 setWalletAvail(true);
                 // Attemp an eager connection
-                solWindow.solana.connect({ onlyIfTrusted: true });
+                solWindow.solana.connect({ onlyIfTrusted: false });
             }
         }
     }, []);
 
     useEffect( () => {
-        provider?.on("connect", (publicKey: PublicKey)=>{ 
+        provider?.on("connect", (publicKey: PublicKey)=>{
             console.log(`connect event: ${publicKey}`);
-            setConnected(true); 
+            setConnected(true);
             setPubKey(publicKey);
         });
-        provider?.on("disconnect", ()=>{ 
+        provider?.on("disconnect", ()=>{
             console.log("disconnect event");
-            setConnected(false); 
+            setConnected(false);
             setPubKey(null);
         });
 

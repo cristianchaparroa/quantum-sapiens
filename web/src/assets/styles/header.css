@@ -1,0 +1,108 @@
+.header {
+  grid-template-columns: 250px auto 225px;
+  display: grid;
+  padding: 20px 14px;
+}
+.header__icon {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  width: 350px;
+  z-index: 10;
+}
+.header__icon--img {
+  width: 45px;
+  cursor: pointer;
+}
+.header__icon--slogan {
+  place-items: center;
+  display: grid;
+  height: 45px;
+  margin: auto 0;
+  cursor: pointer;
+}
+.header__icon--slogan span {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+.header__icon--slogan p {
+  width: 100%;
+  font-size: 16px;
+  font-size: 500;
+  text-align: left;
+  font-family: "Lato", sans-serif;
+}
+.header__nav {
+  justify-content: flex-end;
+  align-items: center;
+  display: flex;
+  gap: 30px;
+}
+.header__nav a {
+  font-family: "Lato", sans-serif;
+}
+.header__nav--burger {
+  position: relative;
+  width: 65px;
+}
+.header__nav--burger-info {
+  align-items: center;
+  display: flex;
+  width: 100%;
+  gap: 8px;
+  cursor: pointer;
+}
+.header__nav--burger img {
+  transition: all 0.3s ease-in-out;
+}
+.header__nav--burger .moveArrow {
+  transform: rotate(180deg);
+}
+.header__nav--burger ul {
+  animation: fadeIn;
+  animation-duration: 0.3s;
+}
+.header__nav--burger .burgerList {
+  flex-direction: column;
+  position: absolute;
+  text-align: center;
+  display: flex;
+  gap: 2px;
+  top: 30px;
+  left: -90px;
+  width: 210px;
+  padding: 8px;
+  border-radius: 12px;
+  background-color: #FFFFFF;
+  border: 1px solid #000000;
+}
+.header__login {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 20px;
+  padding-left: 18px;
+}
+.header__login--user {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+}
+.header__login--user a {
+  font-family: "Lato", sans-serif;
+}
+.header__login .buttonSignUp {
+  background-color: #FFBF23;
+  padding: 12px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 12px;
+  border: 2px solid #996E00;
+  transition: all 0.3s ease-in-out;
+}
+.header__login .buttonSignUp:hover {
+  color: #FFBF23;
+  border: 2px solid #000000;
+  background-color: #000000;
+}
