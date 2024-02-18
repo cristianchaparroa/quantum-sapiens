@@ -1,0 +1,9 @@
+.footer__copyright {
+  text-align: center;
+  padding: 10px 0;
+  color: #FFFFFF;
+  background-color: #000000;
+}
+.footer__copyright p {
+  font-family: "Lato", sans-serif;
+}
