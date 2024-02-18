@@ -10,9 +10,7 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
-<<<<<<< Updated upstream
 .idea
-=======
 dist
 dist-ssr
 *.local
@@ -30,4 +28,3 @@ dist-ssr
 
 # Bun files
 bun.lockb
->>>>>>> Stashed changes

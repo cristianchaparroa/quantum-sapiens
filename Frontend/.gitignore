@@ -22,10 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-<<<<<<< Updated upstream
 .idea/
-=======
 
 # Bun files
 bun.lockb
->>>>>>> Stashed changes
