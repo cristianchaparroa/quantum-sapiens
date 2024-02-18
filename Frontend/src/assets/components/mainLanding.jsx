@@ -10,9 +10,6 @@ import EndingMainLanding from "./Components__Main/endingMainLanding"
 // Images
 import Image1 from '../img/MujeresFelices.jpg'
 
-/* Styles */
-import '../sass/landingWeb/mainLanding.css'
-
 export default function MainLanding (){
   return (
     <>
