@@ -1,5 +1,5 @@
 import { FC, useEffect, useState } from "react";
-import { Connection, PublicKey, clusterApiUrl } from "@solana/web3.js";
+import { PublicKey } from "@solana/web3.js";
 
 
 type PhantomEvent = "disconnect" | "connect" | "accountChanged";
@@ -57,13 +57,13 @@ const Connect2Phantom: FC = () => {
     }, [provider]);
 
 
-    const connectHandler: React.MouseEventHandler<HTMLButtonElement> = (event) => {
+    const connectHandler: React.MouseEventHandler<HTMLButtonElement> = (_) => {
         console.log(`connect handler`);
         provider?.connect()
         .catch((err) => { console.error("connect ERROR:", err); });
     }
 
-    const disconnectHandler: React.MouseEventHandler<HTMLButtonElement> = (event) => {
+    const disconnectHandler: React.MouseEventHandler<HTMLButtonElement> = (_) => {
         console.log("disconnect handler");
         provider?.disconnect()
         .catch((err) => {console.error("disconnect ERROR:", err); });
@@ -74,8 +74,11 @@ const Connect2Phantom: FC = () => {
             { walletAvail ?
                 <>
                     { connected ? <p style={{fontSize: '12px'}} >Address : {pubKey?.toBase58()}</p> : null }
-                <button hidden={connected} onClick={connectHandler}>Connect to Phantom</button>
-                <button hidden={!connected} onClick={disconnectHandler}>Disconnect from Phantom</button>
+                <button hidden={connected} onClick={connectHandler}>Ingresar</button>
+                <div style={{textAlign: 'right'}}>
+                    <button hidden={!connected} onClick={disconnectHandler}>Salir</button>
+                </div>
+
 
                 </>
             :

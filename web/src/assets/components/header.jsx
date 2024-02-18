@@ -42,7 +42,7 @@ export default function Header ({ changePage }) {
         </div>
         <div className="header__icon--slogan" onClick={() => changePage(0)}>
           {/* Cambiar span y p por a */}
-          <span>QuantiumSapiens</span>
+          <span>QuantumSapiens</span>
           <p>Ganas mientras aprendes</p>
         </div>
         <button onClick={prevCourse} style={customBtns}>
@@ -60,13 +60,13 @@ export default function Header ({ changePage }) {
         <a href="#">Comunidad</a>
         <div className="header__nav--burger">
           <div className="header__nav--burger-info">
-            <p 
-            onClick={() => 
+            <p
+            onClick={() =>
             {setClickMove(!clickMove), setClickMoveArrow(!clickMoveArrow)}
             }>Más</p>
-            <img 
+            <img
             className={classMoveArrow}
-            src={iconArrow} 
+            src={iconArrow}
             alt="Icon Arrow" />
           </div>
           <ul className={classHover}>
@@ -78,13 +78,15 @@ export default function Header ({ changePage }) {
         </div>
         <Connect2Phantom />
       </nav>
-      <div className="header__login">
-        <div className="header__login--user">
-          <img src={iconUserLogin} alt="Button Login" />
-          <a href="#">Mi info</a>
-        </div>
-        {/* Hacer que el button sea padre de a */}
-      </div>
+
+
+      {/*<div className="header__login">*/}
+      {/*  <div className="header__login--user">*/}
+      {/*    <img src={iconUserLogin} alt="Button Login" />*/}
+      {/*    <a href="#">Mi info</a>*/}
+      {/*  </div>*/}
+      {/*  /!* Hacer que el button sea padre de a *!/*/}
+      {/*</div>*/}
     </header>
   )
 }
