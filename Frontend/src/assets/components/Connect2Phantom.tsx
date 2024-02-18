@@ -34,6 +34,7 @@ const Connect2Phantom: FC = () => {
             const solWindow = window as WindowWithSolana;
             if (solWindow?.solana?.isPhantom) {
                 setProvider(solWindow.solana);
+                console.log(solWindow.solana);
                 setWalletAvail(true);
                 // Attemp an eager connection
                 solWindow.solana.connect({ onlyIfTrusted: false });
@@ -72,9 +73,10 @@ const Connect2Phantom: FC = () => {
         <div>
             { walletAvail ?
                 <>
-                <button disabled={connected} onClick={connectHandler}>Connect to Phantom</button>
-                <button disabled={!connected} onClick={disconnectHandler}>Disconnect from Phantom</button>
-                { connected ? <p>Your public key is : {pubKey?.toBase58()}</p> : null }
+                    { connected ? <p style={{fontSize: '12px'}} >Address : {pubKey?.toBase58()}</p> : null }
+                <button hidden={connected} onClick={connectHandler}>Connect to Phantom</button>
+                <button hidden={!connected} onClick={disconnectHandler}>Disconnect from Phantom</button>
+
                 </>
             :
                 <>
