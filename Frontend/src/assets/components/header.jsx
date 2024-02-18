@@ -3,7 +3,7 @@ import { useState } from 'react';
 import 'animate.css';
 
 // Imports
-import iconBienestarTu from '../svg/iconBienestarTu.svg';
+import IconQSapiens from '../svg/iconQSapiens.svg';
 import iconUserLogin from '../svg/iconUserLanding.svg';
 import iconArrow from '../svg/iconArrow.svg';
 
@@ -20,7 +20,7 @@ export default function Header () {
     <header className="header">
       <div className="header__icon">
         <div className="header__icon--img">
-          <img src={iconBienestarTu} alt="Icon Website" />  
+          <img src={IconQSapiens} alt="Icon Website" />  
         </div>
         <div className="header__icon--slogan">
           {/* Cambiar span y p por a */}

@@ -2,17 +2,17 @@
 import AdvantagesSVG1 from '../../svg/AdvantagesInfo1.svg'
 import AdvantagesSVG2 from '../../svg/AdvantagesInfo2.svg'
 import AdvantagesSVG3 from '../../svg/AdvantagesInfo3.svg'
-import advantagesSVG from '../../svg/mainAdvantages.svg'
+import advantagesImg from '../../img/LandingPage/imgComputer3.jpg'
 
 export default function AdvantagesMainLanding(){
   return(
     <>
       <section className="main__advantages">
         <div className="main__advantages--svg">
-          <img src={advantagesSVG} alt="Union hace la fuerza" />
+          <img src={advantagesImg} alt="Union hace la fuerza" />
         </div>
         <div className="main__advantages--info">
-          <h2>Creada para todos</h2>
+          <h2>Creada para cualquiera de nosotros</h2>
           <p>Te enseñamos todo lo que tienes que saber sobre blockchain, financiación y desarrollo en el mundo cripto.</p>
           <ul className="main__advantages--info-list">
             <li>Finanzas personales</li>
