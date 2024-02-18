@@ -6,7 +6,7 @@ export default function EndingMainLanding(){
     <>
       <section className="main__ending">
         <div className="main__ending--quote">
-          <h2>"Mejora tu vida emocional, mejora tu vida en general"</h2>
+          <h2>"Create un futuro mientras tus estudias e inviertes en tus metas"</h2>
           <a href="#">
             <button>Empezar</button>
           </a>

@@ -13,14 +13,13 @@ export default function AdvantagesMainLanding(){
         </div>
         <div className="main__advantages--info">
           <h2>Creada para todos</h2>
-          <p>Te enseñamos todo lo que tienes que saber sobre la salud mental y el bienestar emocional por medio de módulos educativos que tu necesites sobre:</p>
+          <p>Te enseñamos todo lo que tienes que saber sobre blockchain, financiación y desarrollo en el mundo cripto.</p>
           <ul className="main__advantages--info-list">
-            <li>Como sanar cualquier emoción</li>
-            <li>Salud mental básica</li>
-            <li>Superar la depresión</li>
-            <li>Enfrentar la ansiedad</li>
-            <li>Mejorar tu autoestima</li>
-            <li>Mejores relaciones interpersonales</li>
+            <li>Finanzas personales</li>
+            <li>Desarrollo web3</li>
+            <li>Nuevas tecnologías</li>
+            <li>Seguridad en la red</li>
+            <li>Conocimientos basicos y avanados en blockchain</li>
           </ul>
           <div className="main__advantages--info-svg">
             <div className="info__svg1">

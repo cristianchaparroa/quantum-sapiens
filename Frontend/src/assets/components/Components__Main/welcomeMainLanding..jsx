@@ -9,8 +9,8 @@ export default function WelcomeManinLanding(){
     <>
       <section className="main__welcome">
         <div className="main__welcome--info">
-          <h1>Herramientas Terapeuticas para todos.</h1>
-          <p>Aprende a como hacer terapia emocional contigo mismo.</p>
+          <h1>Gana mientras estudias y forjas tu futuro</h1>
+          <p>Aprende nuevas cosas mientras que tu dinero se incrementa</p>
           <button>
             <a href="#">Empezar</a>
           </button>

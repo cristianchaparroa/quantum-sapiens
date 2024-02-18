@@ -9,7 +9,7 @@ export default function PricesMainLanding () {
           <div className="main__memberships--container-cards">
             <div className="card__info">
               <div className="card__info--title">
-                <h3>Prueba Gratuita</h3>
+                <h3>Personal</h3>
               </div>
               <div className="card__info--price">
                 <p>US$</p>
@@ -45,7 +45,7 @@ export default function PricesMainLanding () {
           <div className="main__memberships--container-cards">
             <div className="card__info">
               <div className="card__info--title">
-                <h3>Plan mensual</h3>
+                <h3>Empresarial</h3>
               </div>
               <div className="card__info--price">
                 <p>US$</p>
@@ -84,7 +84,7 @@ export default function PricesMainLanding () {
                 <p>Mejor precio/calidad</p>
               </div>
               <div className="card__info--title">
-                <h3>Plan anual</h3>
+                <h3>DAO</h3>
               </div>
               <div className="card__info--price">
                 <p>US$</p>
