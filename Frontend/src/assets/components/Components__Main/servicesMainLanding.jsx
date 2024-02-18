@@ -9,6 +9,7 @@ export default function ServicesMainLanding () {
   const services = [
     {
       img: ServicesImg3,
+<<<<<<< HEAD
       title: 'Una comunidad unida y amigable',
       text: 'Comunidad privada de personas que van en el mismo camino que tu y que te ayudara para alcanzar tus metas.'
     }, {
@@ -23,6 +24,22 @@ export default function ServicesMainLanding () {
       img: ServicesImg4,
       title: 'Estudia cuando puedas',
       text: 'Tu tienes el control en tu tiempo, por eso puedes estudiar cuando estes disponible.'
+=======
+      title: 'La comunidad mas amorosa',
+      text: 'Comunidad privada de personas que van en el mismo camino que tu, acompañado con profesionales de la salud mental que te ayudaran a mejorar tu calidad emocional.'
+    }, {
+      img: ServicesImg1,
+      title: 'La mejor metodologia online',
+      text: 'Simple y efectiva donde aprenderas a como dejar de sentirme mal emocionalmente y a como controlar la ansiedad.'
+    }, {
+      img: ServicesImg2,
+      title: 'Chat terapeutico ilimitado',
+      text: 'Chat ilimitado para tus consultas, crisis o conversacion que quieras tener.'
+    }, {
+      img: ServicesImg4,
+      title: 'Talleres todos los meses',
+      text: 'Párrafo. Haz clic aquí para agregar tu propio texto y editar. Aquí puedes contar tu historia y permitir que tus usuarios sepan más sobre ti.'
+>>>>>>> main
     }
   ]
 
