@@ -1,0 +1,38 @@
+.course__container{
+  grid-template-columns: 1fr 1fr;
+  display: grid;
+  gap: 40px;
+  padding-left: 40px;
+}
+
+.course__container--info-title{
+  justify-content: space-between;
+  flex-direction: column;
+  display: flex;
+  gap: 12px;
+}
+
+.course__container{
+  height: 82.5vh;
+}
+
+.course__container--img img{
+  height: 100%;
+  width: 100%;
+}
+
+.course__container--info-about{
+  margin: 10px 0;
+  padding: 20px 10px;
+  border-top: 1px solid #6c5fa4;
+  border-bottom: 1px solid #6c5fa4;
+}
+
+.course__container--info-price{
+  padding: 0 10px 20px 10px;
+  margin-bottom: 20px;
+}
+
+.course__container--info-price h3{
+  font-size: 28px;
+}
