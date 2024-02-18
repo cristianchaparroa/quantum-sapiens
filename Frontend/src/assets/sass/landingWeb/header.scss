@@ -1,0 +1,102 @@
+.header{
+  grid-template-columns: 200px 1fr 225px;
+  display: grid;
+  padding: 20px 14px;
+  &__icon{
+    display: flex;
+    gap: 14px;
+    &--img{
+      width: 45px;
+    }
+    &--slogan{
+      place-items: center;
+      display: grid;
+      height: 45px;
+      margin: auto 0;
+      span{
+        font-family: $Font-Title;
+        font-size: $PPS;
+        font-weight: bold;
+      }
+      p{
+        width: 100%;
+        font-size: $MPS;
+        font-size: $WTF;
+        text-align: left;
+        font-family: $Font-Text;
+      }
+    }
+  }
+  &__nav{
+    justify-content: end;
+    align-items: center;
+    display: flex;
+    gap: 30px;
+    a{
+      font-family: $Font-Text;
+    }
+    &--burger{
+      position: relative;
+      width: 65px;
+      &-info{
+        align-items: center;
+        display: flex;
+        width: 100%;
+        gap: 8px;
+        cursor: pointer;
+      }
+      img{
+        transition: all 0.3s ease-in-out;
+      }
+      .moveArrow{
+        transform: rotate(180deg);
+      }
+      ul{
+        animation: fadeIn;
+        animation-duration: 0.3s;
+      }
+      .burgerList{
+        flex-direction: column;
+        position: absolute;
+        text-align: center;
+        display: flex;
+        gap: 2px;
+        top: 30px;
+        left: -90px;
+        width: 210px;
+        padding: 8px;
+        border-radius: 12px;
+        background-color: $Primary-Color;
+        border: 1px solid $Quintiary-Color;
+      }
+    }
+  }
+  &__login{
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    padding-left: 18px;
+    &--user{
+      align-items: center;
+      display: flex;
+      gap: 8px;
+      a{
+        font-family: $Font-Text;
+      }
+    }
+    .buttonSignUp{
+      background-color: $Terciary-Color;
+      padding: 12px 20px;
+      cursor: pointer;
+      font-weight: bold;
+      border-radius: 12px;
+      border: 2px solid $Quartiary-Color;
+      transition: all 0.3s ease-in-out;
+    }
+    .buttonSignUp:hover{
+      color: $Terciary-Color;
+      border: 2px solid $Quintiary-Color;
+      background-color: $Quintiary-Color;
+    }
+  }
+}

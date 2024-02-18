@@ -1,0 +1,221 @@
+@media (max-width: 950px) {
+  .header__nav a {
+    display: none;
+  }
+  .header__nav--burger a {
+    display: block;
+  }
+  .main__welcome {
+    width: 100%;
+    padding-left: 20px;
+  }
+  .main__description--background .main__description {
+    grid-template-columns: 0.8fr 1fr;
+    width: 100%;
+    padding: 0 20px;
+  }
+  .main__courses {
+    width: 100%;
+    padding: 50px 20px;
+  }
+  .main__advantages {
+    width: 100%;
+    padding-right: 20px;
+  }
+  .main__services {
+    width: 100%;
+    padding: 0 20px;
+  }
+  .main__services--info {
+    text-align: center;
+  }
+  .main__services--cards {
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 500px;
+    row-gap: 40px;
+    -moz-column-gap: 50px;
+         column-gap: 50px;
+  }
+  .main__memberships {
+    padding: 80px 20px;
+  }
+  .main__memberships--container {
+    justify-content: center;
+    width: 100%;
+  }
+  .main__memberships--container-cards {
+    width: 30%;
+  }
+  .main__memberships--container-cards .card__info {
+    justify-content: space-between;
+    height: 365px;
+  }
+  .main__memberships--container-cards .card__advantages {
+    height: 275px;
+  }
+  .main__opinion {
+    width: 100%;
+    padding: 0 20px;
+  }
+  .main__opinion--opinions {
+    justify-content: center;
+  }
+  .main__opinion--opinions .card__opinion1, .main__opinion--opinions .card__opinion2, .main__opinion--opinions .card__opinion3 {
+    width: 30%;
+  }
+  .main__ending--quote {
+    width: 100%;
+  }
+  .main__ending--image {
+    width: 90%;
+  }
+  .footer__container {
+    grid-template-columns: 1fr 1fr 300px auto;
+    width: 100%;
+    padding: 0 25px;
+  }
+}
+@media (max-width: 850px) {
+  .main__description--background .main__description--info p {
+    display: none;
+  }
+}
+@media (max-width: 750px) {
+  .main__welcome {
+    flex-direction: column;
+    display: flex !important;
+    padding: 30px 20px 0 20px;
+  }
+  .main__welcome--info {
+    width: 500px;
+    margin: 0 auto;
+  }
+  .main__welcome--info h1, .main__welcome--info p {
+    text-align: center;
+    max-width: none;
+  }
+  .main__welcome--info button {
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+  }
+  .main__welcome--info-svg {
+    justify-content: center;
+  }
+  .main__welcome--info-svg p {
+    text-align: left;
+  }
+  .main__welcome--svg {
+    padding: 0 30px;
+  }
+  .main__description--background .main__description {
+    flex-direction: column;
+    display: flex;
+    padding: 0 20px;
+  }
+  .main__description--background .main__description--info {
+    text-align: center;
+    max-width: none;
+    width: 100%;
+  }
+  .main__description--background .main__description--info p {
+    display: block;
+  }
+  .main__advantages {
+    flex-direction: column-reverse;
+    display: flex;
+    gap: 30px;
+    padding: 0 20px 30px 20px;
+  }
+  .main__advantages--info {
+    width: 500px;
+    margin: 0 auto;
+  }
+  .main__advantages--info h2 {
+    text-align: center;
+  }
+  .main__advantages--info-svg {
+    justify-content: center;
+  }
+  .main__advantages--svg {
+    padding: 0 30px;
+  }
+  .main__memberships--container {
+    flex-wrap: wrap;
+  }
+  .main__memberships--container-cards {
+    width: 310px;
+  }
+  .main__memberships--container-cards .card__info {
+    height: 320px;
+  }
+  .main__memberships--container-cards .card__advantages {
+    height: 240px;
+  }
+  .main__ending--span-link {
+    margin-top: 60px;
+  }
+  .footer__container {
+    grid-template-columns: 250px 250px;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    width: 100%;
+    padding: 25px;
+    margin: 0 auto;
+  }
+  .footer__container--contact {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .footer__container--social {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    text-align: left;
+  }
+}
+@media (max-width: 600px) {
+  .main__opinion--title {
+    text-align: center;
+  }
+  .main__opinion--opinions {
+    flex-direction: column;
+    align-items: center;
+  }
+  .main__opinion--opinions .card__opinion1, .main__opinion--opinions .card__opinion2, .main__opinion--opinions .card__opinion3 {
+    width: 320px;
+  }
+  .main__ending--span {
+    height: 90px;
+  }
+  .main__ending--span-link {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 530px) {
+  .main__welcome--info h1, .main__welcome--info p {
+    text-align: left;
+  }
+  .main__welcome--info button {
+    margin: 0;
+  }
+  .main__welcome--info-svg {
+    justify-content: normal;
+  }
+  .main__welcome--svg {
+    padding: 0;
+  }
+  .main__description--background .main__description--info {
+    text-align: left;
+  }
+  .main__advantages--info h2, .main__advantages--info p {
+    text-align: left;
+  }
+  .main__advantages--info-svg {
+    justify-content: normal;
+  }
+  .main__advantages--svg {
+    padding: 0;
+  }
+}/*# sourceMappingURL=responsive.css.map */
