@@ -1,61 +1,33 @@
 /* Images */
-import img1 from '../../img/CourseImg1.png'
-import img2 from '../../img/CourseImg2.png'
-import img3 from '../../img/CourseImg3.png'
-import img4 from '../../img/CourseImg4.png'
-import img5 from '../../img/CourseImg5.png'
-import img6 from '../../img/CourseImg6.png'
-import img7 from '../../img/CourseImg7.png'
-import img8 from '../../img/CourseImg8.png'
-import img9 from '../../img/CourseImg9.png'
+import img1 from '../../img/LandingPage/CourseImg1.jpg'
+import img2 from '../../img/LandingPage/CourseImg2.jpg'
+import img3 from '../../img/LandingPage/CourseImg3.jpg'
+import img4 from '../../img/LandingPage/CourseImg4.jpg'
+import img9 from '../../img/LandingPage/CourseImg9.jpg'
 import svgArrow from '../../svg/IconArrow.svg'
 
 export default function CoursesWebsite () {
   const membership = [
     {
       img: img9,
-      title: 'Habla con Eva',
-      description: 'Esta inteligencia artificial quiere darte nuevas perspectivas sobre soluciones que te estén pasando emocionalmente.'
-    },
-    {
+      title: 'Tu guía completa para la programación web3',
+      description: 'Aprende a programar en la blockchain de Solana.'
+    },{
       img: img1,
-      title: 'Como superar el duelo',
-      description: 'Aprende a gestionar el duelo.'
-    },
-    {
+      title: 'Programación en Solana para web3',
+      description: 'Este curso te llevará desde los fundamentos de Solana.'
+    },{
       img: img2,
-      title: 'Como obtener paz y salud mental',
-      description: 'Explora el camino hacia la serenidad interior y la salud mental. Descubre cómo alcanzar la paz en medio del caos diario.'
-    },
-    {
+      title: 'Desarrollo de aplicaciones descentralizadas',
+      description: 'Descubre cómo puedes utilizar Solana para desarrollar tus propias DApps.'
+    },{
       img: img3,
-      title: 'Comunidad de BienestarTu',
-      description: 'Bienvenido a la comunidad de BienestarTu.'
-    },
-    {
+      title: 'El camino hacia la programación web3 con Solana',
+      description: 'Emprende tu viaje en el mundo de la programación web3 con Solana.'
+    },{
       img: img4,
-      title: 'Una buena relación familiar',
-      description: 'Aprende los mejores consejos para llevar una relación familiar sana.'
-    },
-    {
-      img: img5,
-      title: 'Mi relación con el dinero',
-      description: 'Explorando los senderos de mi prosperidad: una introspección breve sobre mi relación con el dinero.'
-    },
-    {
-      img: img6,
-      title: 'Creando una buena relación en pareja',
-      description: 'Forjando la armonía a dos: Descubre el arte de construir una conexión sólida y amorosa en pareja.'
-    },
-    {
-      img: img7,
-      title: '¿Cómo salir de una tusa?',
-      description: 'Despertando del desamor: Estrategias poderosas para superar una tusa y recuperar tu brillo interior.'
-    },
-    {
-      img: img8,
-      title: 'Como ganarle a la ansiedad',
-      description: 'Domina el arte de la calma: estrategias efectivas y poderosas para vencer a la ansiedad y recuperar el control de tu vida.'
+      title: 'Programación web3 paso a paso',
+      description: 'Sumérgete en el mundo de la programación web3 con Solana.'
     }
   ]
 
@@ -71,7 +43,8 @@ export default function CoursesWebsite () {
               <img 
               className='card__course--img'
               src={member.img} 
-              alt="Imagen del Curso" />
+              alt="Imagen del Curso"
+              onClick={() => console.log(member)}/>
               <div className='card__course--info'>
                 <h3 className='card__course--info-title'>{member.title}</h3>
                 <p className='card__course--info-description'>{member.description}</p>

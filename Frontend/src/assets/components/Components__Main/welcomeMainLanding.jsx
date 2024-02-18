@@ -2,7 +2,7 @@
 import WelcomeSVG1 from '../../svg/WelcomeInfo1.svg'
 import WelcomeSVG2 from '../../svg/WelcomeInfo2.svg'
 import WelcomeSVG3 from '../../svg/WelcomeInfo3.svg'
-import mainSVG from '../../svg/mainWelcome.svg'
+import mainImg from '../../img/LandingPage/imgBook1.jpg'
 
 export default function WelcomeManinLanding(){
   return(
@@ -30,7 +30,7 @@ export default function WelcomeManinLanding(){
           </div>
         </div>
         <div className="main__welcome--svg">
-          <img src={mainSVG} alt="Unión hace la fuerza" />
+          <img src={mainImg} alt="Unión hace la fuerza" />
         </div>
       </section>
     </>
