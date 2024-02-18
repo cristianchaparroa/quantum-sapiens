@@ -1,9 +1,9 @@
 /* Imports */
 // Images
-import ServicesImg1 from '../../img/ServicesImg1.png'
-import ServicesImg2 from '../../img/ServicesImg2.png'
-import ServicesImg3 from '../../img/ServicesImg3.png'
-import ServicesImg4 from '../../img/ServicesImg4.png'
+import ServicesImg1 from '../../img/LandingPage/imgBook2.jpg'
+import ServicesImg2 from '../../img/LandingPage/imgPlanet.jpg'
+import ServicesImg3 from '../../img/LandingPage/cppal_3.jpg'
+import ServicesImg4 from '../../img/LandingPage/cppal_2.jpg'
 
 export default function ServicesMainLanding () {
   const services = [
@@ -31,7 +31,7 @@ export default function ServicesMainLanding () {
       <section className="main__services">
         <div className="main__services--info">
           <h2>Lo que ofrecemos</h2>
-          <p>Con tu suscribcion premium te damos estos beneficios</p>
+          <p>Estudiando en nuestra plataforma esta serán de las ventajas y herramientas que tendras</p>
         </div>
         <section className="main__services--cards">
           {
