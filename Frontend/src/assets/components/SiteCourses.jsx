@@ -10,7 +10,7 @@ import "../styles/siteCourses/mainCourses.css"
 const coursesInfo = [
   {
     key: 1,
-    img: {img1},
+    img: img1,
     intereses: 0.8,
     duration: '8 horas',
     difficulty: 'Básico',
@@ -18,7 +18,7 @@ const coursesInfo = [
     description: 'Aprende a programar en la blockchain de Solana y descubre cómo puedes desarrollar aplicaciones descentralizadas (dApps) con este curso completo.'
   },{
     key: 2,
-    img: {img2},
+    img: img2,
     intereses: 0.3,
     difficulty: 'Medio',
     duration: '16 - 20 horas',
@@ -26,7 +26,7 @@ const coursesInfo = [
     description: 'Este curso te llevará desde los fundamentos de Solana hasta las técnicas avanzadas de programación en web3, preparándote para convertirte en un desarrollador de blockchain competente.'
   },{
     key: 3,
-    img: {img3},
+    img: img3,
     intereses: 0.1,
     duration: '8 horas',
     difficulty: 'Medio',
@@ -34,7 +34,7 @@ const coursesInfo = [
     description: 'Descubre cómo puedes utilizar Solana para desarrollar tus propias aplicaciones descentralizadas en el ecosistema web3 con este curso práctico.'
   },{
     key: 4,
-    img: {img4},
+    img: img4,
     intereses: 0.5,
     difficulty: 'Avanzado',
     duration: '20 - 40 horas',
@@ -42,7 +42,7 @@ const coursesInfo = [
     description: 'Emprende tu viaje en el mundo de la programación web3 con Solana y aprende a construir soluciones descentralizadas innovadoras.'
   },{
     key: 5,
-    img: {img5},
+    img: img5,
     intereses: 0.1,
     duration: '8 horas',
     difficulty: 'Básico',
@@ -50,7 +50,7 @@ const coursesInfo = [
     description: 'Sumérgete en el mundo de la programación web3 con Solana y aprende a construir aplicaciones descentralizadas desde cero con este curso paso a paso.'
   },{
     key: 6,
-    img: {img6},
+    img: img6,
     intereses: 0.5,
     difficulty: 'Básico',
     duration: '20 - 40 horas',
@@ -78,6 +78,9 @@ export default function SiteCourses () {
                     <h2>{card.title}</h2>
                     <p>{card.description}</p>
                     <p>{card.duration}</p>
+                    <a href="#">
+                      <button>Ver mas</button>
+                    </a>
                   </div>
                 </div>
               )

@@ -18,10 +18,10 @@ function App (){
         false && <MainLanding />
       }
       {
-        true && <SiteCourses />
+        false && <SiteCourses />
       }
       {
-        false && <CoursePresentation1 />
+         true && <CoursePresentation1 />
       }
       <Footer />
     </>
