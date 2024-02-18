@@ -66,7 +66,7 @@ export default function SiteCourses ({ changePage }) {
         <div className="main__courses--title">
           <h1>Nuestros cursos son:</h1>
         </div>
-        <section className="main__courses--cards">
+        <section className="main__courses--cards-column">
           {
             coursesInfo.map((card) => {
               return(

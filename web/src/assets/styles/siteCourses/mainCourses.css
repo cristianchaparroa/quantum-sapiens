@@ -8,11 +8,20 @@
 }
 
 .main__courses--cards{
+    flex-direction: row;
+    overflow-x: hidden;
+    display: flex;
+    width: 950px;
+    margin: 20px 0;
+}
+
+.main__courses--cards-column {
     flex-direction: column;
     overflow-x: hidden;
     display: flex;
     width: 950px;
     margin: 20px 0;
+    gap: 20px;
 }
 
 .main__courses--card{
