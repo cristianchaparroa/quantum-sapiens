@@ -1,0 +1,24 @@
+{
+  "name": "quantum_sapiens_padawan",
+  "symbol": "QSI",
+  "description": "Cuando el iniciado es lo suficientemente mayor y ha completado todo su entrenamiento en el Templo, es escogido por un Mestro o Caballero. Este entrenamiento es personal y suele desarrollarse en muchos mundos de la galaxia, donde el Padawan aprenderá de su maestro todo lo que debe aprender para convertirse algún día en un Caballero Jedi.",
+  "seller_fee_basis_points": 1200,
+  "image": "https://gateway.lighthouse.storage/ipfs/QmWSCr3NT831RJmxwTEt3hJxa8e49FmUG12atVhePzq6so",
+  "external_url": "https://github.com/cristianchaparroa/quantum-sapiens.git",
+  "collection": {
+    "name": "quantum_sapiens",
+    "family": "QSI"
+  },
+  "attributes": [],
+  "properties": {
+    "files": [],
+    "category": "",
+    "creators": [
+      {
+        "address": "",
+        "verified": false,
+        "share": 10
+      }
+    ]
+  }
+}
