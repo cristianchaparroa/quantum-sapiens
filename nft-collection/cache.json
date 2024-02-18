@@ -1,0 +1,50 @@
+{
+  "program": {
+    "candyMachine": "BTRnKNGL7HHKQi3JkCnzzShwg8xzir43T7fs73fk3YdW",
+    "candyGuard": "",
+    "candyMachineCreator": "Cx77WNNchfsKDYEiRxSTnGM66MbJ3Tgh3T6KSCAoqJtx",
+    "collectionMint": "7CjX5NP1KkteFQTYYgGUbr7XutAUpHeDdjo4ymrvyXZa"
+  },
+  "items": {
+    "-1": {
+      "name": "quantum_sapiens",
+      "image_hash": "ae7e61df4f5d0ddcc33ccdc79be8924d96a1b46dd0c0a1062ebdb945aa29dd5e",
+      "image_link": "https://gateway.pinata.cloud/ipfs/QmWZKRF9b8ZxSoB7FFw8pPeLmKZ5qYGbfVp9MLPvsQzZ9R/collection.jpg",
+      "metadata_hash": "1af513ade19a2919370df70f423dc22ef72b8be19e41b31e7011e6d5e7b9c3e5",
+      "metadata_link": "https://gateway.pinata.cloud/ipfs/QmcFUfdEqTjohRwwX1FHizErY1gYoDUviBdPvkGtvDVyPW/collection.json",
+      "onChain": true
+    },
+    "0": {
+      "name": "quantum_sapiens_caballero",
+      "image_hash": "ae7e61df4f5d0ddcc33ccdc79be8924d96a1b46dd0c0a1062ebdb945aa29dd5e",
+      "image_link": "https://gateway.pinata.cloud/ipfs/QmVZvN6nT66MLvmWFe9GeToogUzV34nESxtjCQLrtKZzxP/0.jpg",
+      "metadata_hash": "20449b7950086234fb587268ad7c61481e39a6e5a0e6e4c431efa8e07d936c48",
+      "metadata_link": "https://gateway.pinata.cloud/ipfs/QmS14EBZmehn5kdXGSeTkEb5SCgGLPujepk2mVAFpiTFxj/0.json",
+      "onChain": true
+    },
+    "1": {
+      "name": "quantum_sapiens_iniciado",
+      "image_hash": "90f66504fd938fa1f0f8d21a57757360a92ed50cda540ee2d2469530e7a133ba",
+      "image_link": "https://gateway.pinata.cloud/ipfs/QmcTz3Z74hY4FVLereM9TzNMHq1aM2fvcrNpFVFftCJXJt/1.jpg",
+      "metadata_hash": "e1bdbe3b4070218e6f365cccd0243697c672af3e125f48c02c404d4e2cdbf0da",
+      "metadata_link": "https://gateway.pinata.cloud/ipfs/QmNhaE4CmWoMPZcgwzByekkNADvBqQVaaN7wZE3pLPUHhY/1.json",
+      "onChain": true
+    },
+    "2": {
+      "name": "quantum_sapiens_padawan",
+      "image_hash": "87b46a92d5863137e945ef1a1ecc92b6b69328c1c2535acebe1707eec537e845",
+      "image_link": "https://gateway.pinata.cloud/ipfs/QmZNAU1sjEr74X3wqfx4ACh1Zo5XtyUTdAKBYmyzzEEazQ/2.jpg",
+      "metadata_hash": "339d237b89f5ee8675c0604f23963e13f7ddffd10245ecd7ab9f44a537b74057",
+      "metadata_link": "https://gateway.pinata.cloud/ipfs/QmWhwo84dy5JoW2eF6YQaZEPeHAPXVKArxNiP7HD725Vmc/2.json",
+      "onChain": true
+    },
+    "3": {
+      "name": "quantum_sapiens_maestro",
+      "image_hash": "a5a30a6c65f229f0ea27034267d7ab361cb4411315e48fd21f73fc8413a104f0",
+      "image_link": "https://gateway.pinata.cloud/ipfs/QmZgeMu3WfPEraiFHDDUGHE6jMawxvqbkDZKP3kQfEpU4Y/3.jpg",
+      "metadata_hash": "ccffa435ad767a03071c00c32f3fc49d761bde0d36a525df776abd88497957a3",
+      "metadata_link": "https://gateway.pinata.cloud/ipfs/QmNkuGgWYR18HcR8A8b5DknTSG2aer8Q3Gyp8YmKyjsXrc/3.json",
+      "onChain": true
+    }
+  }
+}
